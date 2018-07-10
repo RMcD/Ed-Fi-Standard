@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- (c)2015 Ed-Fi Alliance, LLC. All Rights Reserved. -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://ed-fi.org/0200" targetNamespace="http://ed-fi.org/0200" elementFormDefault="qualified" attributeFormDefault="unqualified">
-	<xs:include schemaLocation="Ed-Fi-Core.xsd"/>
+	<xs:include schemaLocation="https://raw.githubusercontent.com/RMcD/Ed-Fi-Standard/development/v2.0/Schemas/Ed-Fi-Core.xsd"/>
 	<xs:element name="InterchangeDescriptors">
 		<xs:annotation>
 			<xs:documentation>Descriptors provide states, districts, vendors, and other users of the Ed-Fi solution with the flexibility to use their own enumerations and code sets without modifying the Ed-Fi core schema.
